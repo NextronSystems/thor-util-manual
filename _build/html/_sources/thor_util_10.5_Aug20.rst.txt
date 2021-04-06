@@ -1,0 +1,87 @@
+|image0|
+
+**THOR Util - Manual**
+
+**Version 1.11**
+
+**Nextron Systems GmbH **
+
+1 What is THOR Util? 3
+
+2 Upgrade (upgrade) and Updates (update) 3
+
+2.1 THOR TechPreview Version 4
+
+2.2 Update Locations 4
+
+2.3 Update Server Information 4
+
+3 Download Packages (download) 4
+
+4 Install Packages (install) 5
+
+5 Custom Signature Encryption (encrypt) 6
+
+6 Report Generation (report) 7
+
+7 Verify Binaries (verify) 8
+
+8 License Retrieval (license) 8
+
+9 Decrypt Reports and Log Files (decrypt) 9
+
+10 Log Conversion (logconvert) 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.. |image0| image:: media/image1.png
+   :width: 1.66307in
+   :height: 0.30000in
+.. |image1| image:: media/image2.png
+   :width: 4.51597in
+   :height: 1.84130in
+.. |image2| image:: media/image3.png
+   :width: 5.34722in
+   :height: 3.20870in
+.. |image3| image:: media/image4.png
+   :width: 5.52134in
+   :height: 1.84614in
+.. |image4| image:: media/image5.png
+   :width: 4.92029in
+   :height: 2.93913in
+.. |image5| image:: media/image6.png
+   :width: 5.76294in
+   :height: 2.95652in
+.. |image6| image:: media/image7.png
+   :width: 3.78261in
+   :height: 2.02438in
+.. |image7| image:: media/image8.png
+   :width: 4.03650in
+   :height: 2.06688in
+.. |image8| image:: media/image9.png
+   :width: 5.76389in
+   :height: 1.89097in
+.. |image9| image:: media/image10.png
+   :width: 5.76389in
+   :height: 1.68403in
+.. |image10| image:: media/image11.png
+   :width: 5.76389in
+   :height: 4.86319in

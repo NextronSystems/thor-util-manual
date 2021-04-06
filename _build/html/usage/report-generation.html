@@ -1,0 +1,229 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. Report Generation (report) &mdash; THOR Util Manual  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="7. Verify Binaries (verify)" href="verify-binaries.html" />
+    <link rel="prev" title="5. Custom Signature Encryption (encrypt)" href="custom-signature-encryption.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> THOR Util Manual
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="what-is-thor-util.html">1. What is THOR Util?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrade-and-updates.html">2. Upgrade (upgrade) and Updates (update)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="download-packages.html">3. Download Packages (download)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-packages.html">4. Install Packages (install)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="custom-signature-encryption.html">5. Custom Signature Encryption (encrypt)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Report Generation (report)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="verify-binaries.html">7. Verify Binaries (verify)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license-retrieval.html">8. License Retrieval (license)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="decrypt-reports-and-log-files.html">9. Decrypt Reports and Log Files (decrypt)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="log-conversion.html">10. Log Conversion (logconvert)</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">THOR Util Manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>6. Report Generation (report)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/usage/report-generation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="report-generation-report">
+<h1>6. Report Generation (report)<a class="headerlink" href="#report-generation-report" title="Permalink to this headline">¶</a></h1>
+<p>Using the –report flag, you can generate HTML report from plain text
+log files.</p>
+<div class="figure" id="id1">
+<a class="reference external image-reference" href="../_images/image5.png"><img alt="THOR Util's report genearation functions" src="../_images/image5.png" /></a>
+<p class="caption"><span class="caption-text">THOR Util’s report generation functions</span></p>
+</div>
+<div class="code bash highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">thor</span><span class="o">-</span><span class="n">util</span> <span class="n">report</span> <span class="o">--</span><span class="n">logfile</span> <span class="n">PROMETHEUS</span>\<span class="n">_thor</span><span class="o">.</span><span class="n">log</span>
+<span class="n">thor</span><span class="o">-</span><span class="n">util</span> <span class="n">report</span> <span class="o">--</span><span class="n">logdir</span> <span class="o">./</span><span class="n">logs</span>
+</pre></div>
+</div>
+<div class="figure" id="id2">
+<a class="reference external image-reference" href="../_images/image6.png"><img alt="HTML report generated by thor-util" src="../_images/image6.png" /></a>
+<p class="caption"><span class="caption-text">HTML report generated by thor-util</span></p>
+</div>
+<p>See this blog post for details:</p>
+<p><a class="reference external" href="https://www.nextron-systems.com/2018/06/20/thor-util-with-html-report-generation/">https://www.nextron-systems.com/2018/06/20/thor-util-with-html-report-generation/</a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="verify-binaries.html" class="btn btn-neutral float-right" title="7. Verify Binaries (verify)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="custom-signature-encryption.html" class="btn btn-neutral float-left" title="5. Custom Signature Encryption (encrypt)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, Nextron Systems GmbH
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
