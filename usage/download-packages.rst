@@ -35,4 +35,6 @@ To download the Legacy version, which is usable on windows XP, Vista, 2003 and 2
    
    thor-util.exe download -t thor10-win --legacy
 
-You can find more information on the Legacy version `here <https://www.nextron-systems.com/2020/12/17/thor-10-legacy-for-windows-xp-and-windows-2003/>`_.  
+You can find more information on the Legacy version `here <https://www.nextron-systems.com/2020/12/17/thor-10-legacy-for-windows-xp-and-windows-2003/>`_.
+
+Important: The THOR Legacy version is not supported. 
