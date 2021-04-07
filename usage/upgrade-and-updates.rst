@@ -56,19 +56,13 @@ The following two examples show different upgrade methods.
 THOR TechPreview Version
 ------------------------
 
-To download the TechPreview version, use the following command line flag.
-
-.. code:: batch
-   
-   thor-util.exe download -t thor10-win --techpreview
-
 To upgrade your current version to the TechPreview version, use the following command:
 
 .. code:: batch
    
    thor-util.exe upgrade --techpreview
 
-You can find more information on the TechPreview version `here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.  
+You can find more information on the TechPreview version `here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
 
 Update Locations
 ----------------
