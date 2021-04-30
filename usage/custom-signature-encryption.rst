@@ -1,6 +1,3 @@
-.. role:: raw-html-m2r(raw)
-   :format: html
-
 Custom Signature Encryption (encrypt)
 =====================================
 
