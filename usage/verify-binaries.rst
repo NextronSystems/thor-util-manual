@@ -10,3 +10,10 @@ and requires the “\*.sig” files that are shipped with the packages.
    :alt: Verify thor.exe signature using THOR Util
 
    Verify thor.exe signature using THOR Util
+
+To verify the integrity of THOR Util, download the public key used for the verification on Nextrons Website: https://www.nextron-systems.com/pki/
+The public key can be then used with the following command to verify the integrity of thor-util:
+
+.. code:: batch
+
+   openssl dgst -sha256 -verify nextronCode.pem -signature thor-util.sig thor-util
