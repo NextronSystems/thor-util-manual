@@ -66,9 +66,10 @@ Update Locations
 The following servers are used as update mirrors and should be
 accessible via HTTPS:
 
-update1.nextron-systems.com
-
-update2.nextron-systems.com
+.. code:: batch 
+   
+   update1.nextron-systems.com
+   update2.nextron-systems.com
 
 Update Server Information
 -------------------------
