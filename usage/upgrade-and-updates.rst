@@ -76,7 +76,9 @@ SigDev Signatures
 
 Usually it takes our internal testing 1-2 days to verify the quality of new rules. In rare cases in which a new and severe threat has been discovered it could make sense to use the newest and untested signatures that are still in our testing process. (e.g. new vulnerability and public proof-of-concept code)
 
-To retrieve the newest and untested signatures you can use the ``--sigdev`` flag.
+To retrieve the newest and untested signatures you can use the ``thor-util.exe update --sigdev`` flag.
+
+The reset the signature set to the latest stable version use ``thor-util.exe update --force``. (retrieve the stable set and enforce the download even if the current set is newer)
 
 Update Server Information
 -------------------------
