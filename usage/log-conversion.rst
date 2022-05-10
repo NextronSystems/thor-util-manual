@@ -10,7 +10,7 @@ format.
 
    Log Conversion Options
 
-.. code::bash
+.. code:: bash
  
-   ./thor-util logconvert --from-log --to-json -f spark.log -o spark-converted.json
-   ./thor-util logconvert --from-json --to-log -f spark.json -o spark-converted.log
+   ./thor-util logconvert --from-log --to-json -f thor.log -o thor-converted.json
+   ./thor-util logconvert --from-json --to-log -f thor.json -o thor-converted.log

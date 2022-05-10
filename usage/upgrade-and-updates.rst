@@ -1,7 +1,7 @@
 Upgrade (upgrade) and Updates (update)
 ======================================
 
-You can download updates for THOR and SPARK with “thor-util.exe”
+You can download updates for THOR with “thor-util.exe”
 (Windows) or “thor-util” (Linux, macOS).
 
 Running “thor-util --help” shows three options that seem to have a very
