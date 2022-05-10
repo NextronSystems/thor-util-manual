@@ -71,6 +71,13 @@ accessible via HTTPS:
    update1.nextron-systems.com
    update2.nextron-systems.com
 
+SigDev Signatures
+-----------------
+
+Usually it takes our internal testing 1-2 days to verify the quality of new rules. In rare cases in which a new and severe threat has been discovered it could make sense to use the newest and untested signatures that are still in our testing process. (e.g. new vulnerability and public proof-of-concept code)
+
+To retrieve the newest and untested signatures you can use the ``--sigdev`` flag.
+
 Update Server Information
 -------------------------
 
