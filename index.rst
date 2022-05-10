@@ -18,7 +18,6 @@ THOR Util User Manual
    usage/custom-signature-encryption
    usage/report-generation
    usage/verify-binaries
-   usage/license-retrieval
    usage/decrypt-reports-and-log-files
    usage/log-conversion
    usage/templates
