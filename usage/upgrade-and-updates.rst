@@ -12,18 +12,17 @@ all config files while the “upgrade” option fetches a full package but
 excludes the config files to avoid accidental overwrites of local config
 files (like: thor.yml, falsepositive\_filters.cfg etc.).
 
-The “update” option only works with THOR 10 and retrieves only the
-newest signature pack.
+The “update” option retrieves only the newest signature pack (not the program files).
 
-+------------+------------------------------------------------------+--------------------------+
-| Option     | ­­­Description                                       | Program                  |
-+============+======================================================+==========================+
-| upgrade    | Get new program files and signatures                 | THOR 8, SPARK, THOR 10   |
-+------------+------------------------------------------------------+--------------------------+
-| update     | Get new signatures                                   | THOR 10                  |
-+------------+------------------------------------------------------+--------------------------+
-| download   | Get new program files, signatures and config files   | THOR 8, SPARK, THOR 10   |
-+------------+------------------------------------------------------+--------------------------+
++------------+------------------------------------------------------+
+| Option     | ­­­Description                                          |
++============+======================================================+
+| upgrade    | Get new program files and signatures                 |
++------------+------------------------------------------------------+
+| update     | Get new signatures                                   |
++------------+------------------------------------------------------+
+| download   | Get new program files, signatures and config files   |
++------------+------------------------------------------------------+
 
 If you have a full program package present, you should use the “upgrade”
 option.
