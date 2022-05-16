@@ -15,7 +15,7 @@ files (like: thor.yml, falsepositive\_filters.cfg etc.).
 The “update” option retrieves only the newest signature pack (not the program files).
 
 +------------+------------------------------------------------------+
-| Option     | ­­­Description                                          |
+| Option     | Description                                          |
 +============+======================================================+
 | upgrade    | Get new program files and signatures                 |
 +------------+------------------------------------------------------+
@@ -63,13 +63,19 @@ You can find more information on the TechPreview version `here <https://www.next
 Update Locations
 ----------------
 
-The following servers are used as update mirrors and should be
+When using the full version of THOR, the following servers are used as update mirrors and should be
 accessible via HTTPS:
 
 .. code:: batch 
    
    update1.nextron-systems.com
    update2.nextron-systems.com
+
+When using THOR Lite, the following server is used instead and should be accessible:
+
+.. code:: batch
+
+   update-lite.nextron-systems.com
 
 SigDev Signatures
 -----------------
