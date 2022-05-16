@@ -9,3 +9,4 @@ have previously been encrypted by THOR upon scan completion.
    :alt: THOR Util's decryption feature options
 
    THOR Util's decryption feature options
+

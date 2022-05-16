@@ -16,4 +16,4 @@ The public key can be then used with the following command to verify the integri
 
 .. code:: batch
 
-   openssl dgst -sha256 -verify nextronCode.pem -signature thor-util.sig thor-util
+   openssl dgst -sha256 -verify codesign.pem -signature thor-util.exe.sig thor-util.exe
