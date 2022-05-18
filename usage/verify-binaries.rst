@@ -14,6 +14,14 @@ and requires the “\*.sig” files that are shipped with the packages.
 To verify the integrity of THOR Util, download the public key used for the verification on Nextrons Website: https://www.nextron-systems.com/pki/
 The public key can be then used with the following command to verify the integrity of thor-util:
 
+on Windows:
+
 .. code:: batch
 
    openssl dgst -sha256 -verify codesign.pem -signature thor-util.exe.sig thor-util.exe
+
+on Linux:
+
+.. code:: bash
+
+   openssl dgst -sha256 -verify codesign.pem -signature thor-util.sig thor-util
