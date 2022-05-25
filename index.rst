@@ -21,6 +21,7 @@ THOR Util User Manual
    usage/decrypt-reports-and-log-files
    usage/log-conversion
    usage/templates
+   usage/diagnostics
 
 
 Indices and tables
