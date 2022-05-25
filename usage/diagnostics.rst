@@ -32,7 +32,7 @@ of the data collection and can be changed using the ``--output`` flag.
 Get diagnostics of a running THOR scan
 --------------------------------------
 
-The preferred method of collecting THOR diagnostics is to run THOR Util's
+The generally preferred method of collecting THOR diagnostics is to run THOR Util's
 diagnostics command directly when the issue is occurring.
 
 .. code:: none
