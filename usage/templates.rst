@@ -6,13 +6,7 @@ Templates
 
 THOR Util reads a default configuration from `config/thor-util.yml`.
 
-Within this file, parameters can be set in YAML form:
-Say, for example, that you always want to use an HTTP proxy. This can be
-specified in your configuration file with:
-
-.. code:: batch
-
-   proxy: http://myproxy:8080
+Within this file, default parameters can be set in YAML form.
 
 These default parameters can be overridden with command line flags.
 
@@ -22,3 +16,23 @@ These flags can be shown with:
 .. code:: batch
  
    ./thor-util --help
+
+Proxy configuration
+-------------------
+
+If you want to use a specific HTTP proxy, this can be
+specified in your configuration file with:
+
+.. code:: batch
+
+   proxy: http://myproxy:8080
+
+TechPreview configuration
+--------------------------
+
+If you always want to download the latest TechPreview instead of
+the standard THOR version, add:
+
+.. code:: batch
+
+   techpreview: True
