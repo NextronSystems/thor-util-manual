@@ -84,7 +84,7 @@ Usually it takes our internal testing 1-2 days to verify the quality of new rule
 
 To retrieve the newest and untested signatures you can use the ``thor-util.exe update --sigdev`` flag.
 
-The reset the signature set to the latest stable version use ``thor-util.exe update --force``. (retrieve the stable set and enforce the download even if the current set is newer)
+To reset the signature set to the latest stable version use ``thor-util.exe update --force``. (retrieve the stable set and enforce the download even if the current set is newer)
 
 Update Server Information
 -------------------------
