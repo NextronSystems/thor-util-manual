@@ -10,7 +10,7 @@ format.
 
    Log Conversion Options
 
-.. code:: bash
+.. code:: console
  
-   ./thor-util logconvert --from-log --to-json -f thor.log -o thor-converted.json
-   ./thor-util logconvert --from-json --to-log -f thor.json -o thor-converted.log
+   user@unix:~/thor$ ./thor-util logconvert --from-log --to-json -f thor.log -o thor-converted.json
+   user@unix:~/thor$ ./thor-util logconvert --from-json --to-log -f thor.json -o thor-converted.log

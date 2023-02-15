@@ -1,19 +1,19 @@
 Report Generation (report)
 ==========================
 
-Using the --report flag, you can generate HTML report from plain text
+Using the ``--report`` flag, you can generate HTML report from plain text
 log files.
 
 .. figure:: ../images/image5.png
    :target: ../_images/image5.png
-   :alt: THOR Util's report genearation functions
+   :alt: THOR Util's report generation functions
 
    THOR Util's report generation functions
 
-.. code:: bash
+.. code:: console
  
-   thor-util report --logfile PROMETHEUS\_thor.log
-   thor-util report --logdir ./logs
+   user@unix:~/thor$ thor-util report --logfile PROMETHEUS_thor.log
+   user@unix:~/thor$ thor-util report --logdir ./logs
 
 .. figure:: ../images/image6.png
    :target: ../_images/image6.png

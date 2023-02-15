@@ -11,9 +11,9 @@ support to help in troubleshooting the issue.
 
 This can be done using THOR Util's diagnostics command.
 
-.. code:: none
+.. code:: doscon
  
-   thor-util.exe help diagnostics
+   C:\thor>thor-util.exe help diagnostics
 
    Create diagnostics pack
 
@@ -35,9 +35,9 @@ Get diagnostics of a running THOR scan
 The generally preferred method of collecting THOR diagnostics is to run THOR Util's
 diagnostics command directly when the issue is occurring.
 
-.. code:: none
+.. code:: doscon
 
-   thor-util.exe diagnostics
+   C:\thor>thor-util.exe diagnostics
 
 Get diagnostics of a finished THOR scan
 ---------------------------------------
@@ -53,6 +53,6 @@ determining if anti virus exclusions for THOR are applied correctly
 or not. Using the ``--run`` flag should be the preferred method if
 THOR is exiting unexpectedly.
 
-.. code:: none
+.. code:: doscon
 
-   thor-util.exe diagnostics --run
+   C:\thor>thor-util.exe diagnostics --run

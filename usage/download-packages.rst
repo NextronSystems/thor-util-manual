@@ -8,17 +8,17 @@ This option is especially useful in cases in which you have to download
 the updates on an Internet connected machine and bring them to a system
 without Internet access.
 
-.. code:: batch
+.. code:: doscon
  
-   thor-util.exe download -t thor10-win
+   C:\thor>thor-util.exe download -t thor10-win
 
 THOR TechPreview Version
 ------------------------
 
 To download the TechPreview version, use the following command line flag.
 
-.. code:: batch
+.. code:: doscon
    
-   thor-util.exe download -t thor10-win --techpreview
+   C:\thor>thor-util.exe download -t thor10-win --techpreview
 
 You can find more information on the TechPreview version `here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
