@@ -76,6 +76,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_rtd_theme'
 
+html_theme_options = {
+    'prev_next_buttons_location': 'both',
+    'style_external_links': True
+}
+
+html_logo = "images/html/thor-logo.png"
+html_favicon = "images/html/favicon.ico"
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
