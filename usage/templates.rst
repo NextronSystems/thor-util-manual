@@ -28,7 +28,7 @@ specified in your configuration file with:
    proxy: http://myproxy:8080
 
 TechPreview configuration
---------------------------
+-------------------------
 
 If you always want to download the latest TechPreview instead of
 the standard THOR version, add:
