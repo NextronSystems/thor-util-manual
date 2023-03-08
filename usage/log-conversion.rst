@@ -60,6 +60,10 @@ different formats. You can chose whatever format fits your needs the most:
          --to-kv           Convert to KV
          --to-log          Convert to Log
 
+.. note:: 
+  The feature to convert logs into CSV and CSV-zip was introduced in THOR Util
+  Version 1.11.0
+
 Conversion Examples
 ~~~~~~~~~~~~~~~~~~~
 
