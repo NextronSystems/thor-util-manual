@@ -194,3 +194,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 
 # Enable -- to -
 smartquotes = False
+
+# AutoSectionLabel Configuration
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 4
