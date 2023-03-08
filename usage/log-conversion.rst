@@ -79,5 +79,5 @@ is your input file ``-f`` and which should be your output file ``-o``.
    user@unix:~/thor$ ./thor-util logconvert --from-log --to-json -f thor.txt -o thor-converted.json
    user@unix:~/thor$ ./thor-util logconvert --from-log --to-csv -f thor.txt -o thor-converted.csv
    user@unix:~/thor$ ./thor-util logconvert --from-json --to-log -f thor.json -o thor-converted.log
-   user@unix:~/thor$ ./thor-util logconvert --from-log --to-csv -f thor.log -o thor-converted.csv
-   user@unix:~/thor$ ./thor-util logconvert --from-kv --to-csv-zip -f thor-kv.log -o thor-converted.zip
+   user@unix:~/thor$ ./thor-util logconvert --from-log --to-csv -f thor.txt -o thor-converted.csv
+   user@unix:~/thor$ ./thor-util logconvert --from-log --to-csv-zip -f thor.txt -o thor-converted.zip
