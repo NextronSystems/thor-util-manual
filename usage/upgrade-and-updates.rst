@@ -63,7 +63,7 @@ You can find more information on the TechPreview version
 `here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
 
 .. hint:: 
-   To make the TrechPreview version persistent, consider adding it to your THOR Util
+   To make the TechPreview version persistent, consider adding it to your THOR Util
    configuration file (``thor-util.yml``). Please see :ref:`usage/templates:TechPreview configuration`.
 
 Update Locations

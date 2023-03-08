@@ -17,7 +17,7 @@ different formats. You can chose whatever format fits your needs the most:
      - Yes
      - Yes
    * - **Key-Value**
-     - Yes
+     - No [2]_
      - Yes
    * - **CSV**
      - No
@@ -27,6 +27,7 @@ different formats. You can chose whatever format fits your needs the most:
      - Yes
 
 .. [1] This is the default THOR log format ``<hostname>_timestamp.txt``.
+.. [2] The help menu shows the flag is existing, but this is not implemented yet.
 
 .. code-block:: doscon
 
