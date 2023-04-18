@@ -21,4 +21,5 @@ To download the TechPreview version, use the following command line flag.
    
    C:\thor>thor-util.exe download -t thor10-win --techpreview
 
-You can find more information on the TechPreview version `here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
+You can find more information on the TechPreview version
+`here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.

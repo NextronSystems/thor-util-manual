@@ -33,15 +33,14 @@ Every other option has its own help. You can see the help of each option with
 
 .. code:: console
    
-   user@unix:~/thor$ thor-util *option* --help
+   user@unix:~/thor$ ./thor-util *option* --help
 
-.. figure:: ../images/image2.png
-   :target: ../_images/image2.png
+.. figure:: ../images/thor-util-upgrade-help.png
    :alt: THOR Util Upgrade Help
 
    THOR-util Upgrade Help
 
-The following two examples show different upgrade methods.
+The following examples show different upgrade methods.
 
 .. code:: doscon
    
@@ -107,8 +106,7 @@ You can get information on the available update packages on this site:
 
 https://update1.nextron-systems.com/info.php
 
-.. figure:: ../images/image3.png
-   :target: ../_images/image3.png
+.. figure:: ../images/update1_info_page.png
    :alt: Update server information
 
    Update server information

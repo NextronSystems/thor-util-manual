@@ -5,8 +5,7 @@ This feature allows to verify the authenticity of the included binaries.
 The signature verification is based on a public key encryption algorithm
 and requires the ``*.sig`` files that are shipped with the packages.
 
-.. figure:: ../images/image7.png
-   :target: ../_images/image7.png
+.. figure:: ../images/thor-util-verify-thor.exe
    :alt: Verify thor.exe signature using THOR Util
 
    Verify thor.exe signature using THOR Util
@@ -19,10 +18,10 @@ on Windows:
 
 .. code:: doscon
 
-   openssl dgst -sha256 -verify codesign.pem -signature thor-util.exe.sig thor-util.exe
+   C:\thor>openssl dgst -sha256 -verify codesign.pem -signature thor-util.exe.sig thor-util.exe
 
 on Linux:
 
 .. code:: console
 
-   openssl dgst -sha256 -verify codesign.pem -signature thor-util.sig thor-util
+   C:\thor>openssl dgst -sha256 -verify codesign.pem -signature thor-util.sig thor-util

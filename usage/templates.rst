@@ -8,7 +8,7 @@ THOR Util reads a default configuration from ``config/thor-util.yml``.
 
 Within this file, default parameters can be set in YAML form.
 
-These default parameters can be overridden with command line flags.
+These default parameters can be overwritten with command line flags.
 
 All global flags for THOR Util are supported in the configuration file.
 These flags can be shown with:
