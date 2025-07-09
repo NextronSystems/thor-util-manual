@@ -3,7 +3,7 @@ YARA Forge
 
 YARA-Forge (https://yarahq.github.io/) is an open source project that
 bundles YARA rules from different open source projects. Rules are offered
-in different _rulesets_ that differ in their FP ratio / detection rate tradeoff.
+in different **rulesets** that differ in their FP ratio / detection rate tradeoff.
 
 THOR Util offers support for downloading YARA Forge with:
 
