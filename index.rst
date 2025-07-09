@@ -22,6 +22,7 @@ THOR Util User Manual
    usage/log-conversion
    usage/templates
    usage/diagnostics
+   usage/yara-forge
 
 
 Indices and tables
