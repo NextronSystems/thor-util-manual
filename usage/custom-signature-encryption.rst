@@ -4,6 +4,9 @@ Custom Signature Encryption (encrypt)
 You can encrypt the YARA signatures and IOC files with the help of
 THOR-Util's "encrypt" feature.
 
+.. note::
+   THOR Util and THOR Util Lite use different signature encryption methods. Custom signatures must therefore be encrypted using the corresponding version of THOR Util.
+
 .. code:: doscon
    
    C:\thor>thor-util.exe encrypt --help
