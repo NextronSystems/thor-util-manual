@@ -5,16 +5,16 @@ You can download updates for THOR with ``thor-util.exe``
 (Windows) or ``thor-util`` (Linux, macOS).
 
 .. note:: 
-   THOR Util can not update THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
-   Use the Management Center API for this. Only the Nextron Customer Portal is accepted as a license source.
+   THOR Util cannot update THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
+   Use the Management Center API for these updates. THOR Util only accepts the Nextron Customer Portal as a license source.
 
 Running ``thor-util --help`` shows three options that seem to have a very
 similar meaning: "upgrade", "update" and "download".
 
-The difference is that the "download" option downloads a full pack with
-all config files while the "upgrade" option fetches a full package but
-excludes the config files to avoid accidental overwrites of local config
-files (like: ``thor.yml``, ``falsepositive_filters.cfg``, etc.).
+The "download" option downloads a full package including all configuration
+files. The "upgrade" option fetches a full package but excludes
+configuration files to avoid overwriting local files such as ``thor.yml``
+or ``falsepositive_filters.cfg``.
 
 The "update" option retrieves only the newest signature pack (not the program files).
 
@@ -25,15 +25,15 @@ The "update" option retrieves only the newest signature pack (not the program fi
    * - Option
      - Description
    * - upgrade
-     - Get new program files and signatures  
+     - Get new program files and signatures
    * - update
      - Get new signatures
    * - download
-     - Get new program files, signatures and config files
+     - Get new program files, signatures, and configuration files
 
-If you have a full program package present, you should use the "upgrade" option.
+If a full program package is already present, use the "upgrade" option.
 
-Every other option has its own help. You can see the help of each option with
+Each option has its own help. You can view it with:
 
 .. code:: console
    
@@ -44,7 +44,7 @@ Every other option has its own help. You can see the help of each option with
 
    THOR-util Upgrade Help
 
-The following examples show different upgrade methods.
+The following examples show different upgrade methods:
 
 .. code:: doscon
    
@@ -56,7 +56,7 @@ The following examples show different upgrade methods.
 THOR TechPreview Version
 ------------------------
 
-To upgrade your current version to the TechPreview version, use the following command:
+To upgrade your current version to the TechPreview version, use this command:
 
 .. code:: doscon
    
@@ -72,7 +72,7 @@ You can find more information on the TechPreview version
 Update Locations
 ----------------
 
-When using the full version of THOR, the following servers are used as update mirrors and should be
+When using the full version of THOR, the following update mirrors must be
 accessible via HTTPS:
 
 .. code:: none 
@@ -80,33 +80,33 @@ accessible via HTTPS:
    update1.nextron-systems.com
    update2.nextron-systems.com
 
-When using THOR Lite, the following server is used instead and should be accessible:
+When using THOR Lite, the following server must be accessible:
 
 .. code:: none
 
    update-lite.nextron-systems.com
 
 .. hint::
-   For a detailed and up to date list of our update and
+   For a detailed and up-to-date list of our update and
    licensing servers, please visit https://www.nextron-systems.com/hosts/.
 
 SigDev Signatures
 -----------------
 
-Usually it takes our internal testing 1-2 days to verify the quality of new rules.
-In rare cases in which a new and severe threat has been discovered it could make
-sense to use the newest and untested signatures that are still in our testing
-process. (e.g. new vulnerability and public proof-of-concept code)
+New signatures are usually validated for 1-2 days before they are published
+as stable. In rare cases, such as a newly discovered severe threat or public
+proof-of-concept code, you may want to use the latest SigDev signatures while
+they are still in validation.
 
-To retrieve the newest and untested signatures you can use the ``thor-util.exe update --sigdev`` flag.
+To retrieve the latest SigDev signatures, use the ``thor-util.exe update --sigdev`` flag.
 
-To reset the signature set to the latest stable version use ``thor-util.exe update --force``.
-(retrieve the stable set and enforce the download even if the current set is newer)
+To reset the signature set to the latest stable version, use ``thor-util.exe update --force``.
+This retrieves the stable set and enforces the download even if the current set is newer.
 
 Update Server Information
 -------------------------
 
-You can get information on the available update packages on this site:
+You can view information about the available update packages on this site:
 
 https://update1.nextron-systems.com/info.php
 
