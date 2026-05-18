@@ -1,8 +1,8 @@
 Report Generation (report)
 ==========================
 
-Using the ``--report`` flag, you can generate HTML report from plain text
-log files.
+Use the ``report`` command to generate an HTML report from plain text log
+files.
 
 .. figure:: ../images/thor-util-report-generator.png
    :alt: THOR Util's report generation functions
