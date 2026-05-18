@@ -1,8 +1,8 @@
 Custom Signature Encryption (encrypt)
 =====================================
 
-You can encrypt the YARA signatures and IOC files with the help of
-THOR-Util's "encrypt" feature.
+Use THOR Util's "encrypt" command to encrypt YARA signatures and IOC
+files.
 
 .. note::
    THOR Util and THOR Util Lite use different signature encryption methods. Custom signatures must therefore be encrypted using the corresponding version of THOR Util.
@@ -16,16 +16,16 @@ THOR-Util's "encrypt" feature.
   
    THOR Util's Encrypt Feature Help
 
-As target for the encrypt command, you can use a single file, a list of
-files or wildcards.
+The "encrypt" command accepts a single file, a list of files, or
+wildcards as input.
 
 .. code:: doscon 
  
    C:\thor>thor-util.exe encrypt ~/sigs/case14.yar                                                                
-   C:\thor> hor-util.exe encrypt ~/sigs/case14.yar ~/sigs/case14-hashes.txt
+   C:\thor>thor-util.exe encrypt ~/sigs/case14.yar ~/sigs/case14-hashes.txt
    C:\thor>thor-util.exe encrypt ~/sigs/case14.\*
 
-It will automatically detect the type of the signature based on its
+THOR Util automatically detects the signature type based on the file
 extension.
 
 .. list-table:: 
@@ -48,6 +48,6 @@ extension.
      - .json
      - .jsos
 
-Place the encrypted IOC files in the ``./custom-signatures`` sub folder in
-the program directory and the encrypted YARA rules in the
-``./custom-signatures/yara`` sub folder.
+Place encrypted IOC files in the ``./custom-signatures`` subfolder in the
+program directory and encrypted YARA rules in the
+``./custom-signatures/yara`` subfolder.
