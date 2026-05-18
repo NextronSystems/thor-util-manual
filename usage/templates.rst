@@ -3,12 +3,12 @@ Templates
 
 THOR Util reads a default configuration from ``config/thor-util.yml``.
 
-Within this file, default parameters can be set in YAML form.
+Use this file to set default parameters in YAML format.
 
-These default parameters can be overwritten with command line flags.
+Command-line flags override these default parameters.
 
 All global flags for THOR Util are supported in the configuration file.
-These flags can be shown with:
+You can view these flags with:
 
 .. code:: console
  
@@ -17,8 +17,7 @@ These flags can be shown with:
 Proxy configuration
 -------------------
 
-If you want to use a specific HTTP proxy, this can be
-specified in your configuration file with:
+To use a specific HTTP proxy, add it to your configuration file:
 
 .. code:: yaml
 
@@ -27,8 +26,8 @@ specified in your configuration file with:
 TechPreview configuration
 -------------------------
 
-If you always want to download the latest TechPreview instead of
-the standard THOR version, add:
+To always download the latest TechPreview instead of the standard THOR
+version, add:
 
 .. code:: yaml
 
