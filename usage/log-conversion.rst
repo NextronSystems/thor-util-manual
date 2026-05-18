@@ -1,8 +1,8 @@
 Log Conversion (logconvert)
 ===========================
 
-The log conversion features allows you to convert THOR Logs between
-different formats. You can chose whatever format fits your needs the most:
+The log conversion feature allows you to convert THOR logs between
+different formats. Choose the format that fits your needs:
 
 .. list-table:: 
    :header-rows: 1
@@ -27,7 +27,7 @@ different formats. You can chose whatever format fits your needs the most:
      - Yes
 
 .. [1] This is the default THOR log format ``<hostname>_timestamp.txt``.
-.. [2] The help menu shows the flag is existing, but this is not implemented yet.
+.. [2] The help menu shows this flag, but the function is not implemented yet.
 
 .. code-block:: doscon
 
@@ -62,17 +62,16 @@ different formats. You can chose whatever format fits your needs the most:
          --to-log          Convert to Log
 
 .. note:: 
-  The feature to convert logs into CSV and CSV-zip was introduced in THOR Util
-  Version 1.11.0
+  The feature to convert logs into CSV and ZIP CSV was introduced in THOR Util
+  version 1.11.0.
 
 Conversion Examples
 ~~~~~~~~~~~~~~~~~~~
 
-Here you can find some examples on how to convert logs to different formats.
+The following examples show how to convert logs to different formats.
 
-Your command should always follow the same structure of a ``--from`` format,
-as well as a ``--to`` format. Additionally, you also need to instruct which file
-is your input file ``-f`` and which should be your output file ``-o``.
+Each command uses the same structure: a ``--from`` format, a ``--to``
+format, an input file with ``-f``, and an output file with ``-o``.
 
 .. code:: console
  
