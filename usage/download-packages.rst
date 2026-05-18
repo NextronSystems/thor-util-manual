@@ -1,16 +1,16 @@
 Download Packages (download)
 ============================
 
-Using the “download” flag you can download any of the scanner packages
-for Windows, Linux and macOS.
+Use the "download" command to download scanner packages for Windows,
+Linux, and macOS.
 
 .. note:: 
-   THOR Util can not download THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
-   Use the Management Center API for this. Only the Nextron Customer Portal is accepted as a license source.
+   THOR Util cannot download THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
+   Use the Management Center API for these downloads. THOR Util only accepts the Nextron Customer Portal as a license source.
 
-This option is especially useful in cases in which you have to download
-the updates on an Internet connected machine and bring them to a system
-without Internet access.
+This option is useful when you need to download updates on an
+Internet-connected machine and transfer them to a system without Internet
+access.
 
 .. code:: doscon
  
@@ -19,7 +19,7 @@ without Internet access.
 THOR TechPreview Version
 ------------------------
 
-To download the TechPreview version, use the following command line flag.
+To download the TechPreview version, use the following command-line flag:
 
 .. code:: doscon
    
