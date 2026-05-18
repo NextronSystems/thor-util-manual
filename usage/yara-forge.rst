@@ -1,17 +1,18 @@
 YARA Forge
 ===========
 
-YARA-Forge (https://yarahq.github.io/) is an open source project that
-bundles YARA rules from different open source projects. Rules are offered
-in different **rulesets** that differ in their FP ratio / detection rate tradeoff.
+YARA-Forge (https://yarahq.github.io/) is an open-source project that
+bundles YARA rules from different open-source projects. Rules are offered
+in different **rulesets** that differ in their false positive (FP) ratio
+and detection rate trade-off.
 
-THOR Util offers support for downloading YARA Forge with:
+THOR Util supports downloading YARA Forge with:
 
 .. code:: doscon
  
    C:\thor>thor-util.exe yara-forge download --ruleset <ruleset>
 
-Where **ruleset** can be one of the following:
+The **ruleset** value can be one of the following:
 
 - core
 - extended
@@ -19,7 +20,7 @@ Where **ruleset** can be one of the following:
 
 .. note::
    Only one ruleset at a time can be used. When you download a new
-   ruleset, the old one gets overwritten.
+   ruleset, the old one is overwritten.
 
 A downloaded YARA Forge ruleset is stored in ``custom-signatures/yara-forge``
 and is automatically updated with ``thor-util update``.
