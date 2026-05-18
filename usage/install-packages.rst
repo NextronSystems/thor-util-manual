@@ -1,12 +1,13 @@
 Install Packages (install)
 ==========================
 
-The "install" feature is only used to install previously downloaded
-packages. 
+Use the "install" command to install packages that have already been
+downloaded.
 
-The packages can be downloaded 
+You can obtain packages by:
 
-- using the "download" function in THOR Util 
-- using the displayed URL that is shown during update or upgrade procedures
+- using the "download" command in THOR Util
+- using the URL shown during update or upgrade procedures
 
-It is often used to update THOR program folders on systems without Internet access.
+This command is often used to update THOR program folders on systems
+without Internet access.
