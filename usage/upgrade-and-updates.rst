@@ -100,7 +100,7 @@ they are still in validation.
 
 To retrieve the latest SigDev signatures, use the ``thor-util.exe update --sigdev`` flag.
 
-To reset the signature set to the latest stable version, use ``thor-util.exe update --force``.
+To reset the signature set to the latest stable version, use ``thor-util.exe update``.
 This retrieves the stable set and enforces the download even if the current set is newer.
 
 Update Server Information
