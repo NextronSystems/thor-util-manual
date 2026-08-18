@@ -5,8 +5,10 @@ Use the "download" command to download scanner packages for Windows,
 Linux, and macOS.
 
 .. note:: 
-   THOR Util cannot download THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
-   Use the Management Center API for these downloads. THOR Util only accepts the Nextron Customer Portal as a license source.
+   THOR Util cannot download THOR binaries and signatures whose license
+   was obtained through the Management Center. Use the Management Center
+   API for these downloads. THOR Util only accepts the Nextron Customer
+   Portal as a license source.
 
 This option is useful when you need to download updates on an
 Internet-connected machine and transfer them to a system without Internet

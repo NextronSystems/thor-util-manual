@@ -5,8 +5,10 @@ You can download updates for THOR with ``thor-util.exe``
 (Windows) or ``thor-util`` (Linux, macOS).
 
 .. note:: 
-   THOR Util cannot update THOR binaries and signatures whose license was obtained through the ASGARD Management Center.
-   Use the Management Center API for these updates. THOR Util only accepts the Nextron Customer Portal as a license source.
+   THOR Util cannot download THOR binaries and signatures whose license
+   was obtained through the Management Center. Use the Management Center
+   API for these downloads. THOR Util only accepts the Nextron Customer
+   Portal as a license source.
 
 Running ``thor-util --help`` shows three options that seem to have a very
 similar meaning: "upgrade", "update" and "download".
@@ -63,7 +65,7 @@ To upgrade your current version to the TechPreview version, use this command:
    C:\thor>thor-util.exe upgrade --techpreview
 
 You can find more information on the TechPreview version
-`here <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
+`on our website <https://www.nextron-systems.com/2020/08/31/introduction-thor-techpreview/>`_.
 
 .. hint:: 
    To make the TechPreview version persistent, consider adding it to your THOR Util
