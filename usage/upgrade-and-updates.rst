@@ -92,18 +92,26 @@ When using THOR Lite, the following server must be accessible:
    For a detailed and up-to-date list of our update and
    licensing servers, please visit https://www.nextron-systems.com/hosts/.
 
-SigDev Signatures
------------------
+Early Access to New Signatures
+------------------------------
 
-New signatures are usually validated for 1-2 days before they are published
-as stable. In rare cases, such as a newly discovered severe threat or public
-proof-of-concept code, you may want to use the latest SigDev signatures while
-they are still in validation.
+New signatures are validated before they are published as stable. 
+In rare cases, such as a newly discovered severe threat or public 
+proof-of-concept code, you may not want to wait that long.
 
-To retrieve the latest SigDev signatures, use the ``thor-util.exe update --sigdev`` flag.
+To get early access to new signatures, use the ``--signatures-preview`` flag
+(formerly ``--sigdev``):
 
-To reset the signature set to the latest stable version, use ``thor-util.exe update``.
-This retrieves the stable set and enforces the download even if the current set is newer.
+.. code:: doscon
+
+   C:\thor>thor-util.exe update --signatures-preview
+
+This downloads the regular signature set plus the new signatures that are
+still in validation.
+
+To return to the regular signature set, use ``thor-util.exe update``. This
+replaces your current signature set with the latest stable set, even if
+your current set is newer.
 
 Update Server Information
 -------------------------
