@@ -11,7 +11,7 @@ algorithm and requires the ``*.sig`` files shipped with the packages.
    Verify thor.exe signature using THOR Util
 
 To verify the integrity of THOR Util, download the public key from
-Nextron's website: https://www.nextron-systems.com/pki/
+Nextron's website: https://www.nextron-systems.com/resources/keys/
 You can then use the public key with the following commands to verify
 ``thor-util``:
 

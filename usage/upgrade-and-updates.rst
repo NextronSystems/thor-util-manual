@@ -90,7 +90,7 @@ When using THOR Lite, the following server must be accessible:
 
 .. hint::
    For a detailed and up-to-date list of our update and
-   licensing servers, please visit https://www.nextron-systems.com/hosts/.
+   licensing servers, please visit https://www.nextron-systems.com/resources/hosts/.
 
 Early Access to New Signatures
 ------------------------------
